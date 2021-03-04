@@ -24,7 +24,7 @@ namespace Confa_Trade
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			string pathToConfa = @"D:\AcoountigConfig\ConfaTrade\Confa.xml";
+			string pathToConfa = @"D:\AS_Config\Trade\Confa_Trade\Configurator\Confa.xml";
 
 			Exception exception = null;
 
@@ -33,20 +33,26 @@ namespace Confa_Trade
 			bool flag = Конфа.Config.Kernel.Open2(pathToConfa,
 					"localhost",
 					"postgres",
-					"525491",
+					"555",
 					5432,
 					"confa_trade", out exception);
 
+			if (exception != null)
+			{
+				MessageBox.Show(exception.Message);
+				return;
+			}
+
 			Довідники.Тест_Objest тест_Objest = new Довідники.Тест_Objest();
 			тест_Objest.New();
-			тест_Objest.Назва = "Tesat";
+			тест_Objest.Назва = "Test";
 			тест_Objest.Код = "0001";
 			тест_Objest.Save();
 
 			Довідники.Тест2_Objest тест2_Objest = new Довідники.Тест2_Objest();
 			тест2_Objest.New();
 			тест2_Objest.ТестІд = тест_Objest.GetDirectoryPointer();
-			тест2_Objest.Назва = "fsdfs";
+			тест2_Objest.Назва = "Тест2";
 			тест2_Objest.Код = "444";
 			тест2_Objest.Save();
 
