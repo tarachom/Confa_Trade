@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Name>Нова конфігурація</Name>
+  <NameSpace>НоваКонфігурація_1_0</NameSpace>
+  <Author>
+  </Author>
+  <DateTimeSave>04.03.2021 12:24:05</DateTimeSave>
+  <ConstantsBlocks />
+  <Directories>
+    <Directory>
+      <Name>Тест</Name>
+      <Table>tab_a01</Table>
+      <Desc>
+      </Desc>
+      <Fields>
+        <Field>
+          <Name>Назва</Name>
+          <NameInTable>col_a1</NameInTable>
+          <Type>string</Type>
+          <Desc>Назва</Desc>
+        </Field>
+        <Field>
+          <Name>Код</Name>
+          <NameInTable>col_a2</NameInTable>
+          <Type>string</Type>
+          <Desc>Код</Desc>
+        </Field>
+      </Fields>
+      <TabularParts />
+      <Views>
+        <View>
+          <Name>Список</Name>
+          <Table>tab_a01</Table>
+          <Desc>Список</Desc>
+          <Fields>
+            <Field>
+              <Name>Назва</Name>
+              <NameInTable>col_a1</NameInTable>
+              <Type>string</Type>
+            </Field>
+            <Field>
+              <Name>Код</Name>
+              <NameInTable>col_a2</NameInTable>
+              <Type>string</Type>
+            </Field>
+          </Fields>
+        </View>
+      </Views>
+    </Directory>
+    <Directory>
+      <Name>Тест2</Name>
+      <Table>tab_a02</Table>
+      <Desc>кенуек</Desc>
+      <Fields>
+        <Field>
+          <Name>Назва</Name>
+          <NameInTable>col_a1</NameInTable>
+          <Type>string</Type>
+          <Desc>Назва</Desc>
+        </Field>
+        <Field>
+          <Name>Код</Name>
+          <NameInTable>col_a2</NameInTable>
+          <Type>string</Type>
+          <Desc>Код</Desc>
+        </Field>
+        <Field>
+          <Name>ТестІд</Name>
+          <NameInTable>col_a3</NameInTable>
+          <Type>pointer</Type>
+          <Pointer>Довідники.Тест</Pointer>
+          <Desc>
+          </Desc>
+        </Field>
+      </Fields>
+      <TabularParts />
+      <Views>
+        <View>
+          <Name>Список</Name>
+          <Table>tab_a02</Table>
+          <Desc>Список</Desc>
+          <Fields>
+            <Field>
+              <Name>Назва</Name>
+              <NameInTable>col_a1</NameInTable>
+              <Type>string</Type>
+            </Field>
+            <Field>
+              <Name>Код</Name>
+              <NameInTable>col_a2</NameInTable>
+              <Type>string</Type>
+            </Field>
+          </Fields>
+        </View>
+      </Views>
+    </Directory>
+  </Directories>
+  <Enums />
+  <Documents />
+  <RegistersInformation />
+  <RegistersAccumulation />
+</Configuration>

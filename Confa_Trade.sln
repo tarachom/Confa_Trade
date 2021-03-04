@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Confa_Trade", "Confa_Trade.csproj", "{68DE42BC-0A47-44E6-B88F-47DB5C941DCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68DE42BC-0A47-44E6-B88F-47DB5C941DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DE42BC-0A47-44E6-B88F-47DB5C941DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DE42BC-0A47-44E6-B88F-47DB5C941DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DE42BC-0A47-44E6-B88F-47DB5C941DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {741F38A9-C47A-42A3-8B5B-0752AAD37DA5}
+	EndGlobalSection
+EndGlobal
